@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParamUnitDesc version="1.1">
+	<CategoryTypeList>
+		<CategoryType name="Scene" feature_option="VIR_SCENE_CUSTOMIZATION_SUPPORT">
+			<Category name="Default"/>
+			<Category name="App1"/>
+			<Category name="App2"/>
+		</CategoryType>
+		<CategoryType name="Profile">
+			<Category name="Handset" alias="Normal,HAC"/>
+			<Category name="MagiConference" wording="2-mic NR"/>
+		</CategoryType>
+	</CategoryTypeList>
+	<ParamUnit>
+		<Param name="dmnr_para" type="ushort_array"/>
+
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+		<Param name="dmnr_para_nb1" type="ushort_array"/>
+
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+		<Param name="dmnr_para_nb2" type="ushort_array"/>
+
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+		<Param name="dmnr_para_wb2" type="ushort_array"/>
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+		<Param name="dmnr_para_swb1" type="ushort_array"/>
+
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+		<Param name="dmnr_para_swb2" type="ushort_array"/>
+
+
+			<!--Field name="Mic2 HB thd for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="28" bit="0,15" check_list="0,default(4096 -9 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,10362,-5 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB2 thd2 for mic2 Blocking Switch (if cal [23] bit 0 = 1 HB is 1k~3k otherwise 2k~4k)" array_index="29" bit="0,15" check_list="0,default(10000 -5 dB),2067,-12 dB,2603,-11 dB,3277,-10 dB,4096,-9 dB,5193,-8 dB,6538,-7 dB,8231,-6 dB,13045,-4 dB,16422,-3 dB,20675,-2 dB,26028,-1 dB"/-->
+			<!--Field name="Mic2 HB Abs Power thd for mic2 Blocking" array_index="30" bit="0,15" check_list="0,default(1500)"/-->
+			<!--Field name="Mic1 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="31" bit="0,15" check_list="0,default(5000)"/-->
+			<!--Field name="Mic2 LB Abs Power thd for mic2 Blocking (250HZ (Band0))" array_index="32" bit="0,15" check_list="0,default(150)"/-->
+			<!--Field name="Mic2 LB2 Abs Power thd for mic2 Blocking (250~750 HZ (Band1))" array_index="33" bit="0,15" check_list="0,default(20000)"/-->
+			<!--Field name="Mic2 FB Abs Power thd for mic2 Blocking (0~8K HZ)" array_index="34" bit="0,15" check_list="0,default(10000)"/-->
+			<!--Field name="Stationary Noise Over-estimation for Mic2 Blocking" array_index="35" bit="0,2" check_list="0,0 dB,1,1.5 dB,2,3 dB,3,4.5 dB,4,6 dB,5,7.5 dB,6,9 dB,7,10.5 dB"/-->
+	</ParamUnit>
+</ParamUnitDesc>
